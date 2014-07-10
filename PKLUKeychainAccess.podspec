@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/TheLevelUp/LUKeychainAccess'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Costa Walcott' => 'costa@thelevelup.com', 'Takuya Matsuyama' => 't@pkpk.info' }
-  s.source       = { :git => 'https://github.com/TheLevelUp/LUKeychainAccess.git', :tag => "#{s.version}" }
+  s.source       = { :git => 'git@github.com:noradaiko/LUKeychainAccess.git', :branch => "private-repo" }
   s.platform     = :ios, '5.0'
   s.source_files = 'LUKeychainAccess'
   s.frameworks   = 'Security'
